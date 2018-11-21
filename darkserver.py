@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 #Coded By : Mr. Malware
-#https://www.github.com/SkyKnight-Team
+#https://www.github.com/mr-malware
 
 try:
   import os

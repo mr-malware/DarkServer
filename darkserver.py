@@ -50,18 +50,18 @@ def opt():
 		print("CTRL + C for exit")
 		print("")
 		print("\033[1;34mServer Started.......")
-		print("Link: http://127.0.0.1:8888")
+		print("Link: http://127.0.0.1:80")
 		print("\033[1;32mHost Path: "+path)
-		os.system('cd ' +path+"&&"+ 'python3 -m http.server --bind 127.0.0.1 8888  > /dev/null 2>&1')
+		os.system('cd ' +path+"&&"+ 'python3 -m http.server --bind 127.0.0.1 80  > /dev/null 2>&1')
 
 	elif inpt== '2':
 		print("\033[1;35mCTRL + C for exit")
 		print("")
 		print("\033[1;34mServer Started.......")
-		print("\033[1;34mLocal Link: http://127.0.0.1:8888")
+		print("\033[1;34mLocal Link: http://127.0.0.1:80")
 		print("\033[1;33mDark Link: http://"+file.read())
 		print("\033[1;32mHost Path: "+path)
-		os.system('cd ' +path+"&&"+ 'python3 -m http.server --bind 127.0.0.1 8888  > /dev/null 2>&1 | xterm -e tor')
+		os.system('cd ' +path+"&&"+ 'python3 -m http.server --bind 127.0.0.1 80  > /dev/null 2>&1 | xterm -e tor')
 	
 	elif inpt == '3':
 		

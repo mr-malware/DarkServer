@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 #Coded By : Mr. Malware
 #https://www.github.com/mr-malware
 
